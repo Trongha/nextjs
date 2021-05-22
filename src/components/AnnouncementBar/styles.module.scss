@@ -1,0 +1,31 @@
+$announcement-bar-height: auto;
+
+
+.announcementBar {
+  position: relative;
+  width: 100%;
+  height: $announcement-bar-height;
+  background-color: var(--color-primary);
+  color: var(--color-black);
+}
+
+.announcementBarClose {
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 55px;
+  font-size: 1.25rem;
+  padding: 0;
+  border: none;
+  cursor: pointer;
+  background: none;
+  color: inherit;
+  height: 100%;
+}
+
+.announcementBarContent {
+  font-size: 85%;
+  width: 100%;
+  text-align: center;
+  padding: 5px 0;
+}

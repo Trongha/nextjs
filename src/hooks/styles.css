@@ -1,0 +1,3 @@
+body:not(.navigation-with-keyboard) *:not(input):focus {
+  outline: none;
+}
